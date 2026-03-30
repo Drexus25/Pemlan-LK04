@@ -84,6 +84,15 @@ public class RekeningValas extends Rekening implements TransferGlobal {
     }
 
     @Override
-    public void cetakBuktiTransaksi() {}
+    public void cetakBuktiTransaksi() {
+        System.out.println("\n==============================");
+        System.out.println("  BUKTI TRANSAKSI");
+        System.out.println("==============================");
+        System.out.println("  No. Rekening : " + getNomorRekening());
+        System.out.println("  Valuta Dasar : " + kodeKursDasar);
+        System.out.println("  Saldo Saat Ini: " + cekSaldo() + " " + kodeKursDasar);
+        System.out.println("  Detail      : " + riwayatTransaksiTerbaru);
+        System.out.println("==============================\n");
+    }
 
 }
