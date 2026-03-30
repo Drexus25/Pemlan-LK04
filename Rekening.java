@@ -8,4 +8,5 @@ public class Rekening {
         this.nomorRekening = noRek;
         this.saldo = saldo;
     }
+
 }

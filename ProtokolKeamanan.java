@@ -6,4 +6,7 @@ public final class ProtokolKeamanan {
     public ProtokolKeamanan(String ID) {
         this.ID_SERVER = ID;
     }
+
+    
+
 }
