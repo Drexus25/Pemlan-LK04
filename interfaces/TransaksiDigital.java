@@ -1,7 +1,7 @@
-package bankgakmaurugi;
+package bankgakmaurugi.interfaces;
 
 public interface TransaksiDigital extends Transaksi {
     
-    void autentikasi(String otp);
+    boolean autentikasi();
 
 }
